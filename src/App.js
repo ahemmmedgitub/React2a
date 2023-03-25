@@ -1,5 +1,4 @@
 import './App.css'
-import '.index.css'
 import BannerPattern from './components/BannerCardItem/index'
 
 const bannerCardsList = [

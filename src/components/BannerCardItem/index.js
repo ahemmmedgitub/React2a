@@ -1,14 +1,15 @@
 import './index.css'
 
 const BannerPattern = props => {
-  const {eachBanner} = props
-  const {headerText, description, className} = eachBanner
+  const {cardDetails} = props
+  const {headerText, description, className} = cardDetails
   return (
-    <div className={className}>
-      <h1>{headerText}</h1>
-      <p>{description}</p>
-      <button>Show More</button>
-    </div>
+    <li className="bg-container">
+      <div className={className}>
+        <h1>{headerText}</h1>
+        <p>{description}</p>
+      </div>
+    </li>
   )
 }
 
